@@ -5,10 +5,6 @@
 /* font-family: Open Sans; */
 /* } */
 
-.title_one {
-    text-shadow: 1px 1px 2px pink;
-}
-
 .contacts {
     font-family: 'Dancing Script', cursive;
     text-align: center;
@@ -20,8 +16,6 @@
     /* color: rgb(143, 80, 143);  */
     color: black;
     text-decoration: none;
-
-
 }
 
 .image_elas {
@@ -64,8 +58,7 @@ ul {
     list-style-type: none;
     padding: 0;
     text-transform: uppercase;
-    letter-spacing: .2em;
-    font-size: 0.5em;
+    font-size: 0.7em;
 }
 
 .header_nav a {
@@ -83,91 +76,77 @@ ul {
 }
 
 #hamburguer {
-    background-color:rgb(65, 1, 65);
+    background-color: rgb(65, 1, 65);
     color: #faecec;
     display: block;
     text-align: center;
     padding: 0.3em;
     cursor: pointer;
-  
+
 }
 
 .header_nav.show {
     display: block;
 }
 
-@media screen and (min-width: 48em) {
-    /*768px maior que*/
-
-    #hamburguer {
-        display: none;
-    }
-
-    .header {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        background-color: rgb(247, 207, 247);
-    }
-
-
-    .header_logo {
-        margin-left: 2.5em;
-    }
-
-    .header_nav {
-        display: block;
-    }
-
-    .header_nav ul {
-        margin-right: 2em;
-        font-size: .5em;
-    }
-
-    .header_nav li {
-        display: inline-block;
-    }
-
-    .header_nav a {
-        border-radius: 5px;
-       
-    }
-
-
-    .header_nav a:hover {
-        background-color: rgb(143, 80, 143);
-        color: #090000;
-       
-    }
-
-    .container li {
-        display: inline-block;
-        margin-right: 1em;
-        margin-left: 1em;
-    }
-}
-
-
-
-
-
-
-
 section {
     width: 100%;
     display: inline-block;
     /* background: #333; */
     background-color: rgb(247, 207, 247);
-    height: 50vh;
-    text-align: center;
+    /*height: 50vh; */
+    /* text-align: center;
     font-size: 1.375rem;
     font-weight: 700;
-    text-decoration: underline;
+    text-decoration: underline; */
+}
+
+.img-container {
+    width: 6em;
+}
+
+.img-container img {
+    width: 5em;
+    -webkit-transition: -webkit-transform .5s ease;
+    transition: transform .5s ease;
+}
+
+.img-container:hover img {
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+}
+
+.icon_img {
+    width: 5.5em;
+}
+
+.boxOne {
+    flex: auto;
+    width: 20em;
+    background-color: rgb(228, 219, 225);
+    padding: 4em;
+    margin: 4em;
+    border-radius: 8px;
+    box-shadow: 0 5px 12px black;
+}
+
+article p {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 
+.subTitle {
+    text-align: center;
+}
 
+.section_space {
+    height: 3.5em;
+}
 
+.letter {
+    line-height: 1.5;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
 
 
 .footer-distributed {
@@ -347,14 +326,31 @@ section {
     cursor: pointer;
 }
 
+/* .fafa-whatsapp{  */
+/* width: 100px; */
+/* height: 100px; */
+/* display: inline; */
+/* float:left   */
+/* transform: scale(2.1);  */
+/* } */
+/* img:hover{ */
+/* transform: scale(1.1); */
+/* } */
+
+/* .linha_final {
+    background-color: #f30404;
+    width: 100rem;
+    height: 0.120rem;
+    position: absolute;
+    left: 0;
+    top: 41rem;
+} */
+
 /* If you don't want the footer to be responsive, remove these media queries */
 
 @media (max-width: 880px) {
 
-    .footer-distributed {
-        font: bold 0.875rem sans-serif;
-    }
-
+    
     .footer-distributed .footer-left,
     .footer-distributed .footer-center,
     .footer-distributed .footer-right {
@@ -370,22 +366,52 @@ section {
 
 }
 
-/* .fafa-whatsapp{  */
-/* width: 100px; */
-/* height: 100px; */
-/* display: inline; */
-/* float:left   */
-/* transform: scale(2.1);  */
-/* } */
-/* img:hover{ */
-/* transform: scale(1.1); */
-/* } */
+@media screen and (min-width: 48em) {
+    /*768px maior que*/
 
-.linha_final {
-    background-color: #f30404;
-    width: 100rem;
-    height: 0.120rem;
-    position: absolute;
-    left: 0;
-    top: 41rem;
+    #hamburguer {
+        display: none;
+    }
+
+    .header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: rgb(247, 207, 247);
+    }
+
+
+    .header_logo {
+        margin-left: 2.5em;
+    }
+
+    .header_nav {
+        display: block;
+    }
+
+    .header_nav ul {
+        margin-right: 2em;
+        font-size: 0.7em;
+    }
+
+    .header_nav li {
+        display: inline-block;
+    }
+
+    .header_nav a {
+        border-radius: 5px;
+    }
+
+
+    .header_nav a:hover {
+        background-color: rgb(143, 80, 143);
+        color: #090000;
+
+    }
+
+    .container li {
+        display: inline-block;
+        margin-right: 1em;
+        margin-left: 1em;
+    }
 }
