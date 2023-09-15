@@ -326,6 +326,27 @@ article p {
     cursor: pointer;
 }
 
+.customBox{
+    background-color: #efe5e5;
+    box-shadow: rgba(65, 1, 65, 0.4) 5px 5px, rgba(65, 1, 65, 0.3) 10px 10px, rgba(65, 1, 65, 0.2) 15px 15px, rgba(65, 1, 65, 0.1) 20px 20px, rgba(65, 1, 65, 0.05) 25px 25px;
+}
+
+.custombox_two{
+    background-color: #efe5e5;
+    box-shadow: rgba(65, 1, 65, 0.4) -5px 5px, rgba(65, 1, 65, 0.3) -10px 10px, rgba(65, 1, 65, 0.2) -15px 15px, rgba(65, 1, 65, 0.1) -20px 20px, rgba(65, 1, 65, 0.05) -25px 25px;
+}
+   
+
+.imageconsole{
+    width: 22.5rem;
+    
+}
+
+.image_console{
+    left: 20%;
+}
+
+
 /* .fafa-whatsapp{  */
 /* width: 100px; */
 /* height: 100px; */
