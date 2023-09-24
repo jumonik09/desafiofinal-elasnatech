@@ -430,24 +430,9 @@ article p {
     }
 }
 
-.title {
-    width: 100%;
-    max-width: 854px;
-    margin: 0 auto;
-}
-
-.caption {
-    width: 100%;
-    max-width: 854px;
-    margin: 0 auto;
-    padding: 20px 0;
-}
-
 .vid-main-wrapper {
-    width: 100%;
-    max-width: 1100px;
-    min-width: 440px;
-    background: #fff;
+    width: 80%;
+    background: #222;
     margin: 0 auto;
 }
 
@@ -456,8 +441,6 @@ article p {
 ############################### */
 .vid-container {
     position: relative;
-    padding-bottom: 52%;
-    padding-top: 30px;
     height: 0;
     width: 70%;
     float: left;
@@ -478,7 +461,7 @@ article p {
 ############################### */
 .vid-list-container {
     width: 30%;
-    height: 360px;
+    height: 22.5rem;
     overflow: hidden;
     float: right;
 }
@@ -491,7 +474,6 @@ article p {
 ol#vid-list {
     margin: 0;
     padding: 0;
-    background: #222;
 }
 
 ol#vid-list li {
@@ -500,14 +482,14 @@ ol#vid-list li {
 
 ol#vid-list li a {
     text-decoration: none;
-    background-color: #222;
-    height: 55px;
+    background-color: #222; /*Cor do fundo do video na listagem*/
+    height: 4.5rem;
     display: block;
     padding: 10px;
 }
 
 ol#vid-list li a:hover {
-    background-color: #666666
+    background-color: #666666 /*Cor do fundo no hover do video na listagem*/
 }
 
 .vid-thumb {
@@ -520,8 +502,8 @@ ol#vid-list li a:hover {
 }
 
 #vid-list .desc {
-    color: #CACACA;
-    font-size: 13px;
+    color: #CACACA; /*Cor do letra na listagem de*/
+    font-size: 1rem;
     margin-top: 5px;
 }
 
