@@ -30,11 +30,21 @@ body {
     height: auto;
 }
 
+
+
 .header_nav {
     /* background-color: #0e0000; */
     display: none;
     border-radius: 20px 20px 20px 20px;
     padding: 0px;
+}
+
+.fundo_menu {
+    position: absolute;
+    left: 0;
+    top:  0;
+    z-index: -1;
+    width: 50%;
 }
 
 ul {
@@ -80,7 +90,6 @@ section {
     width: 100%;
     display: inline-block;
     /* background: #333; */
-    background-color: rgb(247, 207, 247);
     /*height: 50vh; */
     /* text-align: center;
     font-size: 1.375rem;
@@ -380,7 +389,7 @@ article p {
 
 }
 
-@media screen and (min-width: 48em) {
+@media screen and (min-width: 576px) {
     /*768px maior que*/
 
     #hamburguer {
@@ -391,7 +400,6 @@ article p {
         display: flex;
         justify-content: space-between;
         align-items: center;
-        background-color: rgb(247, 207, 247);
     }
 
 
@@ -456,6 +464,16 @@ article p {
     min-height: 360px;
 }
 
+.vid-main-wrapper-experiencia {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.vid-container-experiencia {
+    width: 100%;
+    text-align: center;
+}
+
 
 /*  VIDEOS PLAYLIST 
 ############################### */
@@ -482,14 +500,16 @@ ol#vid-list li {
 
 ol#vid-list li a {
     text-decoration: none;
-    background-color: #222; /*Cor do fundo do video na listagem*/
+    background-color: #222;
+    /*Cor do fundo do video na listagem*/
     height: 4.5rem;
     display: block;
     padding: 10px;
 }
 
 ol#vid-list li a:hover {
-    background-color: #666666 /*Cor do fundo no hover do video na listagem*/
+    background-color: #666666
+        /*Cor do fundo no hover do video na listagem*/
 }
 
 .vid-thumb {
@@ -502,7 +522,8 @@ ol#vid-list li a:hover {
 }
 
 #vid-list .desc {
-    color: #CACACA; /*Cor do letra na listagem de*/
+    color: #CACACA;
+    /*Cor do letra na listagem de*/
     font-size: 1rem;
     margin-top: 5px;
 }
