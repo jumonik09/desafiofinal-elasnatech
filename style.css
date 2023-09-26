@@ -123,7 +123,7 @@ section {
     padding: 4em;
     margin: 4em;
     border-radius: 8px;
-    box-shadow: 0 5px 12px black;
+    box-shadow: 0 0.312rem 0.75rem black;
 }
 
 article p {
@@ -334,10 +334,6 @@ article p {
     box-shadow: rgba(65, 1, 65, 0.4) -5px 5px, rgba(65, 1, 65, 0.3) -10px 10px, rgba(65, 1, 65, 0.2) -15px 15px, rgba(65, 1, 65, 0.1) -20px 20px, rgba(65, 1, 65, 0.05) -25px 25px;
 }
 
-/* .customBox_1{
-    background-color: #efe5e5;
-    box-shadow: rgba(65, 1, 65, 0.4) 5px 5px, rgba(65, 1, 65, 0.3) 10px 10px, rgba(65, 1, 65, 0.2) 15px 15px, rgba(65, 1, 65, 0.1) 20px 20px, rgba(65, 1, 65, 0.05) 25px 25px;
-}  */
 
 
 .imageconsole {
@@ -349,24 +345,17 @@ article p {
     max-height: 15rem;
 }
 
-/* .fafa-whatsapp{  */
-/* width: 100px; */
-/* height: 100px; */
-/* display: inline; */
-/* float:left   */
-/* transform: scale(2.1);  */
-/* } */
-/* img:hover{ */
-/* transform: scale(1.1); */
-/* } */
+
 
 /* .linha_final {
     background-color: #f30404;
-    width: 100rem;
-    height: 0.120rem;
-    position: absolute;
+    width: 20rem;
+    height: 0.250rem;
+     position: absolute;
     left: 0;
-    top: 41rem;
+    top: 1.60rem;
+    border-radius: 30%;
+   
 } */
 
 /* If you don't want the footer to be responsive, remove these media queries */
@@ -386,6 +375,7 @@ article p {
     .footer-distributed .footer-center i {
         margin-left: 0;
     }
+
 
 }
 
@@ -529,22 +519,3 @@ ol#vid-list li a:hover {
 }
 
 
-/* 
- @media(min-width: 1024px) {   /*mudar tamanho do carroseel 
-    .div-img-carousel, .item.active {
-        overflow: hidden;
-        width: 800px;
-        height: 500px;
-        margin: 0 auto;
-    }
-
-    .carousel-inner {
-        width: 100%;
-    }
-
-    #meuSlider {
-        width: 800px;
-        height: 500px;
-    }
-
-} */
