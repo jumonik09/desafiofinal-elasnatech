@@ -346,17 +346,6 @@ article p {
 
 
 
-/* .linha_final {
-    background-color: #f30404;
-    width: 20rem;
-    height: 0.250rem;
-     position: absolute;
-    left: 0;
-    top: 1.60rem;
-    border-radius: 30%;
-   
-} */
-
 /* If you don't want the footer to be responsive, remove these media queries */
 
 @media (max-width: 880px) {
