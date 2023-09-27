@@ -31,7 +31,6 @@ body {
 }
 
 
-
 .header_nav {
     /* background-color: #0e0000; */
     display: none;
@@ -63,7 +62,7 @@ ul {
     text-decoration: none;
     display: block;
     padding: 1em;
-    border-radius: 1, 25rem 1.25rem 1.25rem 1.25rem;
+    border-radius: 1.25rem 1.25rem 1.25rem 1.25rem;
 }
 
 .header_nav a:hover {
@@ -80,6 +79,10 @@ ul {
     padding: 0.3em;
     cursor: pointer;
 
+}
+
+#header_divider {
+    display: none;
 }
 
 .header_nav.show {
@@ -179,9 +182,6 @@ article p {
 
 }
 
-
-
-
 .footer-distributed h3 span {
     color: lightseagreen;
 
@@ -234,8 +234,6 @@ article p {
     /* float:left;   */
     /* transform: scale(1.1); */
 }
-
-
 
 
 .footer-distributed .footer-right i.fa-envelope {
@@ -337,7 +335,8 @@ article p {
 
 
 .imageconsole {
-    width: 30.5rem;
+    width: 100%;
+    min-width: 19rem;
 }
 
 .image_profile {
@@ -384,6 +383,10 @@ article p {
 
     #hamburguer {
         display: none;
+    }
+
+    #header_divider {
+        display: block;
     }
 
     .header {
@@ -494,7 +497,7 @@ ol#vid-list li a {
     /*Cor do fundo do video na listagem*/
     height: 4.5rem;
     display: block;
-    padding: 10px;
+    padding: 0.625rem;
 }
 
 ol#vid-list li a:hover {
@@ -504,7 +507,7 @@ ol#vid-list li a:hover {
 
 .vid-thumb {
     float: left;
-    margin-right: 8px;
+    margin-right: 0.5rem;
 }
 
 .active-vid {
@@ -515,7 +518,7 @@ ol#vid-list li a:hover {
     color: #CACACA;
     /*Cor do letra na listagem de*/
     font-size: 1rem;
-    margin-top: 5px;
+    margin-top: 0.3125rem;
 }
 
 
