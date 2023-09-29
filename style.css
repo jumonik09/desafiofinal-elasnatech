@@ -6,13 +6,14 @@
 /* } */
 
 body {
-    background-color: rgb(247, 207, 247);
+    background-color: #FDEDED;
+
 }
 
 .contacts {
     font-family: 'Dancing Script', cursive;
     text-align: center;
-    color: white;
+    color: rgb(237, 230, 227);
 }
 
 .image_elas {
@@ -41,7 +42,7 @@ body {
 .fundo_menu {
     position: absolute;
     left: 0;
-    top:  0;
+    top: 0;
     z-index: -1;
     width: 50%;
 }
@@ -66,14 +67,14 @@ ul {
 }
 
 .header_nav a:hover {
-    background-color: rgb(143, 80, 143);
-    color: #fff;
+    background-color: #611539;
+    color: #FDEDED;
     border-radius: 1.25rem 1.25rem 1.25rem 1.25rem;
 }
 
 #hamburguer {
-    background-color: rgb(65, 1, 65);
-    color: #faecec;
+    background-color: #611539;
+    color: #FDEDED;
     display: block;
     text-align: center;
     padding: 0.3em;
@@ -151,7 +152,8 @@ article p {
 
 .footer-distributed {
     /* background: #666; */
-    background-color: rgb(65, 1, 65);
+    /* background-color:rgb(53, 9, 11) ; */
+    background-image: linear-gradient(358deg, #58143a, #781b38, #992334, #ba2b30);
     box-shadow: 0 1rem 1rem 0 rgb(247, 207, 247);
     box-sizing: border-box;
     width: 100%;
@@ -219,7 +221,7 @@ article p {
 
 .footer-distributed .footer-right i {
     /* background-color: #33383b; */
-    background-color: rgb(143, 80, 143);
+    background-color: #611539;
     color: #ffffff;
     font-size: 1.5625rem;
     width: 2.375rem;
@@ -317,19 +319,28 @@ article p {
     margin-bottom: 0.31rem;
 }
 
+
 .cursor {
     cursor: pointer;
 
 }
 
+.cursor:hover {
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+
 .customBox {
-    background-color: #efe5e5;
-    box-shadow: rgba(65, 1, 65, 0.4) 5px 5px, rgba(65, 1, 65, 0.3) 10px 10px, rgba(65, 1, 65, 0.2) 15px 15px, rgba(65, 1, 65, 0.1) 20px 20px, rgba(65, 1, 65, 0.05) 25px 25px;
+
+    background-color: #efeded;
+    box-shadow: rgba(176, 40, 49, 0.4) 5px 5px, rgba(176, 40, 49, 0.3) 10px 10px, rgba(176, 40, 49, 0.2) 15px 15px, rgba(176, 40, 49, 0.1) 20px 20px, rgba(176, 40, 49, 0.05) 25px 25px;
+
 }
 
 .custombox_two {
-    background-color: #efe5e5;
-    box-shadow: rgba(65, 1, 65, 0.4) -5px 5px, rgba(65, 1, 65, 0.3) -10px 10px, rgba(65, 1, 65, 0.2) -15px 15px, rgba(65, 1, 65, 0.1) -20px 20px, rgba(65, 1, 65, 0.05) -25px 25px;
+    background-color: #efeded;
+    box-shadow: rgba(176, 40, 49, 0.4) -5px 5px, rgba(176, 40, 49, 0.3) -10px 10px, rgba(176, 40, 49, 0.2) -15px 15px, rgba(176, 40, 49, 0.1) -20px 20px, rgba(176, 40, 49, 0.05) -25px 25px;
 }
 
 
@@ -344,6 +355,13 @@ article p {
     max-height: 15rem;
 }
 
+.button_desafios {
+    background-color: #611539;
+    text-transform: uppercase;
+    text-align: center;
+    border-radius: 10rem;
+    align-items: center;
+}
 
 
 /* If you don't want the footer to be responsive, remove these media queries */
@@ -408,8 +426,8 @@ article p {
 
 
     .header_nav a:hover {
-        background-color: rgb(143, 80, 143);
-        color: #090000;
+        background-color: #611539;
+        color: #FDEDED;
 
     }
 
@@ -509,5 +527,3 @@ ol#vid-list li a:hover {
     font-size: 1rem;
     margin-top: 0.3125rem;
 }
-
-
