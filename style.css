@@ -2,9 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Handlee&family=Lora:ital,wght@1,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Handlee&family=Lora:ital,wght@1,700&family=Quicksand:wght@300&display=swap');
 
-/* * { */
-/* font-family: Open Sans; */
-/* } */
+
 
 body {
     background-color: #FDEDED;
@@ -33,6 +31,10 @@ body {
     height: auto;
 }
 
+.header_assinatura{
+    width: 12em;
+    height: auto;
+}
 
 .header_nav {
     /* background-color: #0e0000; */
@@ -234,10 +236,6 @@ article p {
     line-height: 2.625rem;
     margin: 0.625rem 0.9375rem;
     vertical-align: middle;
-
-    /* display: inline;  */
-    /* float:left;   */
-    /* transform: scale(1.1); */
 }
 
 
@@ -406,8 +404,9 @@ article p {
     }
 
 
-    .header_logo {
+    .header_logos {
         margin-left: 2.5em;
+        margin-right: 2em;
     }
 
     .header_nav {
