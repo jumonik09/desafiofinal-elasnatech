@@ -11,7 +11,7 @@ body {
 
 .contacts {
     /* font-family: 'Dancing Script', cursive; */
-    font-family:'Handlee', cursive;
+    font-family: 'Handlee', cursive;
     text-align: center;
     color: rgb(237, 230, 227);
 }
@@ -31,7 +31,7 @@ body {
     height: auto;
 }
 
-.header_assinatura{
+.header_assinatura {
     width: 12em;
     height: auto;
 }
@@ -141,7 +141,7 @@ article p {
 
 .subTitle {
     /* font-family: 'Dancing Script', 'cursive'; */
-    font-family:'Handlee', cursive;
+    font-family: 'Handlee', cursive;
     text-align: center;
 }
 
@@ -155,10 +155,7 @@ article p {
     text-align: justify;
 }
 
-
 .footer-distributed {
-    /* background: #666; */
-    /* background-color:rgb(53, 9, 11) ; */
     background-image: linear-gradient(358deg, #58143a, #781b38, #992334, #ba2b30);
     box-shadow: 0 1rem 1rem 0 rgb(247, 207, 247);
     box-sizing: border-box;
@@ -171,62 +168,20 @@ article p {
 .footer-distributed .footer-left,
 .footer-distributed .footer-center,
 .footer-distributed .footer-right {
-    display: inline-block;
-    vertical-align: top;
+    display: block;
 }
 
-/* Footer left */
-
-.footer-distributed .footer-left {
-    width: 40%;
+.footer-left {
+    width: 100%;
+    text-align: center;
 }
 
-/* The company logo */
-
-.footer-distributed h3 {
-    color: #ffffff;
-    font: normal 2.25rem 'Open Sans', cursive;
-    margin: 0;
-
+.footer-center {
+    width: 100%;
+    height: 3rem;
 }
 
-.footer-distributed h3 span {
-    color: lightseagreen;
-
-
-}
-
-/* Footer links */
-
-.footer-distributed .footer-links {
-    color: #ffffff;
-    margin: 1.25rem 0 0.75rem;
-    padding: 0;
-}
-
-.footer-distributed .footer-links a {
-    display: inline-block;
-    line-height: 1.8;
-    font-weight: 400;
-    text-decoration: none;
-    color: inherit;
-}
-
-.footer-distributed .footer-company-name {
-    color: #222;
-    font-size: 0.875rem;
-    font-weight: normal;
-    margin: 0;
-}
-
-/* Footer Center */
-
-.footer-distributed .footer-center {
-    width: 35%;
-}
-
-.footer-distributed .footer-right i {
-    /* background-color: #33383b; */
+.footer-right i {
     background-color: #611539;
     color: #ffffff;
     font-size: 1.5625rem;
@@ -239,13 +194,7 @@ article p {
     vertical-align: middle;
 }
 
-
-.footer-distributed .footer-right i.fa-envelope {
-    font-size: 1.0625rem;
-    line-height: 2.375rem;
-}
-
-.footer-distributed .footer-right p {
+.footer-right p {
     display: inline-block;
     color: #ffffff;
     font-weight: 400;
@@ -253,74 +202,15 @@ article p {
     margin: 0;
 }
 
-.footer-distributed .footer-right p span {
-    display: block;
-    font-weight: normal;
-    font-size: 0.875rem;
-    line-height: 2;
-}
-
-.footer-distributed .footer-right p a {
-    color: lightseagreen;
-    text-decoration: none;
-    ;
-}
-
-.footer-distributed .footer-links a:before {
-    content: "|";
-    font-weight: 300;
-    font-size: 1.25rem;
-    left: 0;
-    color: #fff;
-    display: inline-block;
-    padding-right: 0.3125rem;
-}
-
-.footer-distributed .footer-links .link-1:before {
-    content: none;
-}
-
-/* Footer Right */
-
-.footer-distributed .footer-right {
-    width: 20%;
-}
-
-.footer-distributed .footer-company-about {
-    line-height: 1.33rem;
-    color: #92999f;
-    font-size: 0.8125rem;
-    font-weight: normal;
-    margin: 0;
-}
-
-.footer-distributed .footer-company-about span {
-    display: block;
-    color: #ffffff;
-    font-size: 0.875rem;
-    font-weight: bold;
-    margin-bottom: 1.25rem;
-}
-
-.footer-distributed .footer-icons {
-    margin-top: 1.56rem;
-}
-
-.footer-distributed .footer-icons a {
-    display: inline-block;
-    width: 2.18rem;
-    height: 2.18rem;
-    cursor: pointer;
-    background-color: #33383b;
-    border-radius: 2px;
-    font-size: 1.25rem;
-    color: #ffffff;
+.footer-right {
+    width: 100%;
     text-align: center;
-    line-height: 2.18rem;
-    margin-right: 0.18rem;
-    margin-bottom: 0.31rem;
 }
 
+.links_container {
+    text-align: start;
+    display: inline-block
+}
 
 .cursor {
     cursor: pointer;
@@ -363,28 +253,6 @@ article p {
     text-align: center;
     border-radius: 10rem;
     align-items: center;
-}
-
-
-/* If you don't want the footer to be responsive, remove these media queries */
-
-@media (max-width: 880px) {
-
-
-    .footer-distributed .footer-left,
-    .footer-distributed .footer-center,
-    .footer-distributed .footer-right {
-        display: block;
-        width: 6.25rem;
-        margin-bottom: 2.5rem;
-        text-align: center;
-    }
-
-    .footer-distributed .footer-center i {
-        margin-left: 0;
-    }
-
-
 }
 
 @media screen and (min-width: 576px) {
@@ -439,6 +307,27 @@ article p {
         margin-right: 1em;
         margin-left: 1em;
     }
+
+    .footer-distributed .footer-left,
+    .footer-distributed .footer-center,
+    .footer-distributed .footer-right {
+        display: inline-block; 
+        vertical-align: top;
+    }
+
+    .footer-left {
+        width: 40%;
+        text-align: start;
+    }
+
+    .footer-center {
+        width: 15%;
+    }
+
+    .footer-right {
+        width: 40%;
+        text-align: center;
+    }
 }
 
 .vid-main-wrapper {
@@ -464,7 +353,7 @@ article p {
     top: 0;
     left: 0;
     width: 100%;
-    min-height: 360px;
+    min-height: 22.5rem;
 }
 
 .vid-main-wrapper-experiencia {
@@ -473,8 +362,19 @@ article p {
 }
 
 .vid-container-experiencia {
+    position: relative;
+    min-height: 22.5rem;
     width: 100%;
-    text-align: center;
+}
+
+.vid-container-experiencia iframe,
+.vid-container-experiencia object,
+.vid-container-experiencia embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 22.5rem;
 }
 
 
