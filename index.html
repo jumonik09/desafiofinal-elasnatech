@@ -33,74 +33,79 @@
 
     <main>
         <section>
-            <header class="header">
+            <div class="header_wrapper">
+                <header class="header">
 
-                <div class="header_logos">
-                    <div>
-                        <img src="imagemheader/borboleta.png" alt="imagem borboleta vermelho retirado do site flaticon.com"
-                        class="header_logo">
+                    <div class="header_logos">
+                        <div>
+                            <img src="imagemheader/borboleta.png"
+                                alt="imagem borboleta vermelho retirado do site flaticon.com" class="header_logo">
+                        </div>
+
+                        <div>
+                            <img src="assinatura.png" alt="logo feito no site Canvas" class="header_assinatura">
+                        </div>
                     </div>
-                    
+
+
+                    <span id="hamburguer" class="material-symbols-rounded">
+                        menu
+                    </span>
+
                     <div>
-                        <img src="assinatura.png" alt="logo feito no site Canvas" class="header_assinatura">
+                        <nav id="itens_menu" class="header_nav">
+                            <ul>
+                                <li>
+                                    <a href="#sobre_mim">Sobre mim</a>
+                                </li>
+
+                                <li>
+                                    <a href="#elas">Elas na Tech</a>
+                                </li>
+
+                                <li>
+                                    <a href="#desafios_page">Desafios</a>
+                                </li>
+
+                                <li>
+                                    <a href="#conquistas_page">Conquistas</a>
+                                </li>
+
+                                <li>
+                                    <a href="#aprendizados_page">Aprendizados</a>
+                                </li>
+
+                                <li>
+                                    <a href="#projetos_page">Projetos</a>
+                                </li>
+
+
+                                <li>
+                                    <a href="#experiencia_page">Experiência</a>
+                                </li>
+
+
+                                <li>
+                                    <a href="#contatos_page">Contatos</a>
+                                </li>
+                            </ul>
+                        </nav>
+
+                        <div id="header_divider" style="height: 0.1875rem; background-color: #611539"></div>
+
                     </div>
-                </div>
 
+                </header>
 
-                <span id="hamburguer" class="material-symbols-rounded">
-                    menu
-                </span>
-
-                <div>
-                    <nav id="itens_menu" class="header_nav">
-                        <ul>
-                            <li>
-                                <a href="#sobre_mim">Sobre mim</a>
-                            </li>
-
-                            <li>
-                                <a href="#elas">Elas na Tech</a>
-                            </li>
-
-                            <li>
-                                <a href="#desafios_page">Desafios</a>
-                            </li>
-
-                            <li>
-                                <a href="#conquistas_page">Conquistas</a>
-                            </li>
-
-                            <li>
-                                <a href="#aprendizados_page">Aprendizados</a>
-                            </li>
-
-                            <li>
-                                <a href="#projetos_page">Projetos</a>
-                            </li>
-
-
-                            <li>
-                                <a href="#experiencia_page">Experiência</a>
-                            </li>
-
-
-                            <li>
-                                <a href="#contatos_page">Contatos</a>
-                            </li>
-                        </ul>
-                    </nav>
-
-                    <div id="header_divider" style="height: 0.1875rem; background-color: #611539"></div>
-
-                </div>
-
-            </header>
-
+                <div class="header_sombra"> </div>
+            </div>
 
         </section>
     </main>
 
     <section id="sobre_mim">
+
+        <div class="section_space_top"></div>
 
         <h2 class="subTitle">Sobre Mim</h2>
 
@@ -169,6 +174,7 @@
 
                     </div>
                 </div>
+                <div class="w-100 break_colunas"></div>
                 <div class="col"> <!--Coluna direita-->
                     <div class="card">
                         <div class="card-body customBox">
@@ -176,7 +182,6 @@
                                 <img src="flaticons/flor.png"
                                     alt="Mão segurando uma flor ícones criados por Freepik - Flaticon">
                             </div>
-                            <!-- <img src="flaticons/flor.png" class="float-end imgshadow" alt="Mão segurando uma flor ícones criados por Freepik - Flaticon"> -->
                             <p class="letter">O início da minha jornada no Elas na Tech se deu no meu processo de
                                 pesquisas de transição de carreira para a tecnologia. Comecei a pesquisar no Google,
                                 redes sociais sobre cursos por meses, não sabia se iniciava um bootcamp, um
@@ -227,6 +232,7 @@
                         </div>
                     </div>
                 </div>
+                <div class="w-100 break_colunas"></div>
                 <div class="col"> <!--Coluna direita-->
                     <div class="container">
 
@@ -273,11 +279,9 @@
 
         <div class="container">
             <div class="row align-items-center">
-                <div class="col"> <!--Coluna esquerda-->
-                    <!-- <img src="imagensone/html.png" class="float-end imgshadow imageconsole" alt="retirado do site https://carbon.now.sh/"> -->
-
+                <div class="col">
                 </div>
-                <div class="col"> <!--Coluna direita-->
+                <div class="col-8"> <!--Coluna direita-->
                     <div class="card">
                         <div class="card-body customBox">
                             <div class="float-end imgshadow img-container">
@@ -294,6 +298,8 @@
                         </div>
                     </div>
                 </div>
+                <div class="col">
+                </div>
             </div>
         </div>
 
@@ -308,10 +314,10 @@
             <div class="row align-items-center">
                 <div class="col">
                 </div>
-                <div class="col-8"> <!--Coluna esquerda-->
+                <div class="col-8">
                     <div class="card">
                         <div class="card-body custombox_two">
-                            <div class="float-start imgshadow img-container">
+                            <div class="float-start imgshadow img-container img-aprendizados">
                                 <img src="flaticons/flor_one.png"
                                     alt="Mão segurando uma flor ícones criados por Freepik - Flaticon">
                             </div>
@@ -444,17 +450,26 @@
                 <div class="col-8"> <!--Coluna esquerda-->
                     <div class="card">
                         <div class="card-body custombox_two">
-                            <ul>
+                            <ul class="list_desafios">
+
                                 <li>
-                                    <p class="letter"><b>•Desafio 14:</b> Demonstração de um site mobile first que foi criado como
+                                    <p class="letter"><b>• Desafio 14:</b> Demonstração de um site mobile first que foi
+                                        criado como
                                         parte do desafio 14. Além disso, é aplicado conceitos da utilização de
                                         responsividade, menu hambúrguer e utilização do framework Bootstrap.</p>
 
                                     <div class="text-center">
                                         <a class="btn btn-danger button_desafios"
                                             href="https://github.com/jumonik09/elasnatech_14" target="_blank">
-                                            GitHub
+                                            <i class="fa fa-github-alt"></i> GitHub
                                         </a>
+                                        <a class="btn btn-danger button_desafios"
+                                            href="https://jumonik09.github.io/elasnatech_14/desafio_14_1.html"
+                                            target="_blank">
+                                            <i class="fa fa-share"></i> Visite o Site
+                                        </a>
+
+
                                     </div>
 
                                 </li>
@@ -462,7 +477,8 @@
                                 <hr>
 
                                 <li>
-                                    <p class="letter"><b>•Desafio 13:</b> Demonstração de um site mobile first, no qual projetos web
+                                    <p class="letter"><b>• Desafio 13:</b> Demonstração de um site mobile first, no qual
+                                        projetos web
                                         são desenvolvidos priorizando-se as funcionalidades dos dispositivos móveis e
                                         posteriormente adaptado ao desktop.
                                         Ademais, é aplicado conceitos da utilização de responsividade e menu hambúrguer.
@@ -471,7 +487,12 @@
                                     <div class="text-center">
                                         <a class="btn btn-danger button_desafios"
                                             href="https://github.com/jumonik09/elasnatech_13" target="_blank">
-                                            GitHub
+                                            <i class="fa fa-github-alt"></i> GitHub
+                                        </a>
+                                        <a class="btn btn-danger button_desafios"
+                                            href="https://jumonik09.github.io/elasnatech_13/desafio_treze.html"
+                                            target="_blank">
+                                            <i class="fa fa-share"></i> Visite o Site
                                         </a>
                                     </div>
                                 </li>
@@ -479,14 +500,20 @@
                                 <hr>
 
                                 <li>
-                                    <p class="letter"><b>•Desafio 12:</b> Neste projeto continuamos aprender sobre a linguagem de programação JavaScript, que permite criar páginas web de forma
-                                    dinâmica, foi exercitado os conceitos de variáveis
-                                    e funções. Dessa forma, desenvolveu-se uma calculadora.</p>
+                                    <p class="letter"><b>• Desafio 12:</b> Neste projeto continuamos aprender sobre a
+                                        linguagem de programação JavaScript, que permite criar páginas web de forma
+                                        dinâmica, foi exercitado os conceitos de variáveis
+                                        e funções. Dessa forma, desenvolveu-se uma calculadora.</p>
 
                                     <div class="text-center">
                                         <a class="btn btn-danger button_desafios"
                                             href="https://github.com/jumonik09/elasnatech_12" target="_blank">
-                                            GitHub
+                                            <i class="fa fa-github-alt"></i> GitHub
+                                        </a>
+                                        <a class="btn btn-danger button_desafios"
+                                            href="https://jumonik09.github.io/elasnatech_12/desafio_twelve.html"
+                                            target="_blank">
+                                            <i class="fa fa-share"></i> Visite o Site
                                         </a>
                                     </div>
 
@@ -495,7 +522,8 @@
                                 <hr>
 
                                 <li>
-                                    <p class="letter"><b>•Desafio 11:</b> Neste projeto aprendemos sobre o uso de if & else (condição)
+                                    <p class="letter"><b>• Desafio 11:</b> Neste projeto aprendemos sobre o uso de if &
+                                        else (condição)
                                         na
                                         linguagem de programaçāo Javascript.
                                         Foi aprendido sobre estrutura de seleção,
@@ -505,7 +533,12 @@
                                     <div class="text-center">
                                         <a class="btn btn-danger button_desafios"
                                             href="https://github.com/jumonik09/elasnatech_11" target="_blank">
-                                            GitHub
+                                            <i class="fa fa-github-alt"></i> GitHub
+                                        </a>
+                                        <a class="btn btn-danger button_desafios"
+                                            href="https://jumonik09.github.io/elasnatech_11/desafio_11.html"
+                                            target="_blank">
+                                            <i class="fa fa-share"></i> Visite o Site
                                         </a>
                                     </div>
 
@@ -515,14 +548,22 @@
                                 <hr>
 
                                 <li>
-                                    <p class="letter"><b>•Desafio 10:</b> Neste projeto foi utilizado Flexbox (CSS), responsividade no qual dispõe-se as páginas da web renderizar em diversos tipos de dispositivos e tamanhos de janela ou tela do mínimo ao máximo e foi aplicado Scale (CSS), que
-                                    visa redimensionar elementos no plano 2D nas dimensões verticais e horizontais
-                                    em escalas diferentes.</p>
+                                    <p class="letter"><b>• Desafio 10:</b> Neste projeto foi utilizado Flexbox (CSS),
+                                        responsividade no qual dispõe-se as páginas da web renderizar em diversos tipos
+                                        de dispositivos e tamanhos de janela ou tela do mínimo ao máximo e foi aplicado
+                                        Scale (CSS), que
+                                        visa redimensionar elementos no plano 2D nas dimensões verticais e horizontais
+                                        em escalas diferentes.</p>
 
                                     <div class="text-center">
                                         <a class="btn btn-danger button_desafios"
                                             href="https://github.com/jumonik09/elasnatech_10" target="_blank">
-                                            GitHub
+                                            <i class="fa fa-github-alt"></i> GitHub
+                                        </a>
+                                        <a class="btn btn-danger button_desafios"
+                                            href="https://jumonik09.github.io/wedding-project/desafio10.html"
+                                            target="_blank">
+                                            <i class="fa fa-share"></i> Visite o Site
                                         </a>
                                     </div>
 
@@ -532,29 +573,46 @@
                                 <hr>
 
                                 <li>
-                                    <p class="letter"><b>•Desafio 09:</b> Neste projeto que aprendemos como criar páginas responsivas
+                                    <p class="letter"><b>• Desafio 09:</b> Neste projeto que aprendemos como criar
+                                        páginas responsivas
                                         pela primeira vez e continuamos aprender novos conceitos de Flexbox(CSS).</p>
 
                                     <div class="text-center">
                                         <a class="btn btn-danger button_desafios"
                                             href="https://github.com/jumonik09/elasnatech_09" target="_blank">
-                                            GitHub
+                                            <i class="fa fa-github-alt"></i> GitHub
                                         </a>
+
+                                        <a class="btn btn-danger button_desafios"
+                                            href="https://jumonik09.github.io/elasnatech_09/desafio_09.html"
+                                            target="_blank">
+                                            <i class="fa fa-share"></i> Visite o Site
+                                        </a>
+
+
                                     </div>
                                 </li>
 
                                 <hr>
 
                                 <li>
-                                    <p class="letter"><b>•Desafio 08:</b> Neste projeto que tivemos nosso primeiro contato com
+                                    <p class="letter"><b>• Desafio 08:</b> Neste projeto que tivemos nosso primeiro
+                                        contato com
                                         Flexbox(CSS), que é um conjunto de funcionalidades intrínsecos no CSS que
                                         permite agrupar elementos responsivos dentro de um container de forma dinâmica.
                                     </p>
                                     <div class="text-center">
                                         <a class="btn btn-danger button_desafios"
                                             href="https://github.com/jumonik09/desafio08_elasnatech" target="_blank">
-                                            GitHub
+                                            <i class="fa fa-github-alt"></i> GitHub
                                         </a>
+
+                                        <a class="btn btn-danger button_desafios"
+                                            href="https://jumonik09.github.io/desafio08_elasnatech/desafio_aula8.html"
+                                            target="_blank">
+                                            <i class="fa fa-share"></i> Visite o Site
+                                        </a>
+
                                     </div>
 
 
@@ -563,13 +621,20 @@
                                 <hr>
 
                                 <li>
-                                    <p class="letter"><b>•Desafio 07:</b> Neste projeto foi onde praticamos a estrutura HTML e CSS e
+                                    <p class="letter"><b>• Desafio 07:</b> Neste projeto foi onde praticamos a estrutura
+                                        HTML e CSS e
                                         aprendemos como colocar um Botão de Efeito Flutuante (CSS).</p>
 
                                     <div class="text-center">
                                         <a class="btn btn-danger button_desafios"
                                             href="https://github.com/jumonik09/desafio07_elasnatech" target="_blank">
-                                            GitHub
+                                            <i class="fa fa-github-alt"></i> GitHub
+                                        </a>
+
+                                        <a class="btn btn-danger button_desafios"
+                                            href="https://jumonik09.github.io/desafio07_elasnatech/desafioelasnatech_aula07.html"
+                                            target="_blank">
+                                            <i class="fa fa-share"></i> Visite o Site
                                         </a>
                                     </div>
 
@@ -577,7 +642,8 @@
                                 </li>
 
                                 <li>
-                                    <p class="letter"><b>•Desafio 06:</b> Primeiro projeto que aprendemos sobre os primeiros conceitos
+                                    <p class="letter"><b>• Desafio 06:</b> Primeiro projeto que aprendemos sobre os
+                                        primeiros conceitos
                                         de CSS (Cascading Style Sheet) utilizado para estilizar elementos e aquitetar o
                                         conteúdo visual do web site e HTML (Linguagem de Marcação de Hipertexto) que
                                         possibilita o desenvolvimento de websites, inclusão de conteúdos de vídeos e
@@ -586,7 +652,13 @@
                                     <div class="text-center">
                                         <a class="btn btn-danger button_desafios"
                                             href="https://github.com/jumonik09/elasnatech-06" target="_blank">
-                                            GitHub
+                                            <i class="fa fa-github-alt"></i> GitHub
+                                        </a>
+
+                                        <a class="btn btn-danger button_desafios"
+                                            href="https://jumonik09.github.io/elasnatech-06/desafioelasnatech.html"
+                                            target="_blank">
+                                            <i class="fa fa-share"></i> Visite o Site
                                         </a>
                                     </div>
                                 </li>
@@ -612,21 +684,12 @@
 
             <!-- THE YOUTUBE PLAYER -->
             <div class="vid-container-experiencia">
-                <iframe src="https://www.youtube.com/embed/efnpQWosAuU?rel=0&showinfo=0&autohide=1"
-                    frameborder="0" width="560" height="315"></iframe>
+                <iframe src="https://www.youtube.com/embed/efnpQWosAuU?rel=0&showinfo=0&autohide=1" frameborder="0"
+                    width="560" height="315"></iframe>
             </div>
-        </div>   
-
-        <!--
-        <div class="vid-main-wrapper-experiencia">
-
-            <div class="vid-container-experiencia">
-                <iframe id="vid_frame" src="https://www.youtube.com/embed/efnpQWosAuU?si=G9HjGDYNa_v-V0EH"
-                    frameborder="0" width="560" height="315"></iframe>
-            </div>
-
         </div>
-        -->
+
+
 
         <div class="section_space"></div>
 
